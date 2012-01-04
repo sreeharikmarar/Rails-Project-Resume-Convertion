@@ -1,0 +1,50 @@
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+ *= require_self
+ *= require_tree . 
+*/
+
+.HEADER { margin:5px; padding:10px; background-color:#ffe599; border-bottom:solid 1px #4b4b4b; background-image:-webkit-linear-gradient(top,white 0,#ffe599 100%);}
+.FOOTER { margin:5px; padding:10px; background-color:#990000; border-top:solid 1px #4b4b4b}
+.SHELL {width:940px; margin:5px auto; padding:10px }
+
+.BUTTON {
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor:pointer;
+    background-image:-webkit-linear-gradient(top,#f9cb9c 0,#990000 100%);
+    padding : 4px 10px;
+    text-decoration: none;
+}
+
+.BUTTON:hover {
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor:pointer;
+    background-image:-webkit-linear-gradient(top,#990000 0,#f9cb9c 100%);
+    padding : 4px 10px;
+    text-decoration: none;
+}
+.BUTTONSUBMIT {
+    border-color: #990000;
+    color: #990000;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor:pointer;
+    background-image:-webkit-linear-gradient(top,#f9cb9c 0,#fff2cc 100%);
+    padding : 4px 10px;
+    text-decoration: none;
+}
+.BUTTONSUBMIT:hover {
+    border-color: #990000;
+    color: #990000;
+    border-radius: 4px;
+    cursor:pointer;
+    background-image:-webkit-linear-gradient(top,#fff2cc 0,#f9cb9c 100%);
+    padding : 4px 10px;
+    text-decoration: none;
+}
